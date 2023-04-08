@@ -1,0 +1,1014 @@
+.navbar{
+  background-color: #245953!important;
+  position: fixed!important;
+  width: 100%!important;
+  height: 80px!important;
+  z-index: 20!important;
+}
+.nav-item{
+  margin-left: 20px;
+}
+.navbar-collapse{
+  margin-left: 520px!important;
+}
+.nav-img{
+  width: 40px;
+  height: 40px;
+}
+.nav-link{
+color: white!important;
+font-size: 17px!important;
+text-transform: uppercase;
+}
+.nav-link:hover{
+  text-decoration: underline;
+  color: #ffc107!important;
+}
+.nav-head{
+  color: white!important;
+}
+.banner{
+  margin-top: 0px;
+  /* width: 100%; */
+}
+.bnrimg{
+  height: 700px!important;
+}
+.bnrhd{
+  position: absolute;
+  font-size: 70px;
+  margin: -365px 0px 0px 0px;
+  font-family: 'Kalam';
+  width: 20%;
+}
+.bnrpara{
+  position: absolute;
+  margin: -120px 0px 0px 0px;
+  width: 80%;
+  color: white;
+  font-size: 25px;
+}
+.d-block{
+  opacity: 70%!important;
+  /* width: 100%!important; */
+  width: 1280px!important;
+  height: 500px!important;
+}
+.card1{
+  margin-top: 110px;
+  background-color: #BBD6B8;
+}
+.cardpara{
+  width: 350px;
+  margin: 50px 0px 0px 0px;
+  letter-spacing: 1px;
+  font-family: 'ubuntu';
+  font-size: 17px;
+  color: #245953;
+}
+.cardimg{
+   width: 455px;
+  height: 400px;
+  margin: 70px 0px 0px 175px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 15px;
+  margin: 35px 0px 0px 140px;
+
+
+}
+.cardimg:hover {
+  content: url('../img/backimg.jpg');
+}
+.cardcolomn{
+  margin: -400px 0px 0px 800px;
+}
+.cardheading{
+  position: absolute;
+  margin: -60px 0px 0px 0px;
+  font-size: 50px;
+  color:#EBB02D;
+  opacity: 55%;
+}
+.cardclr{
+  position: absolute;
+  background-color: grey;
+  opacity: 50%;
+  width: 100px;
+  height: 10px;
+  border-radius: 8px;
+  margin: -60px 0px 0px 585px;
+}
+.cardheading:hover{
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.cardbtn{
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  background-color:#EBB02D;
+  opacity: 60%;
+  border-style: none;
+  border-radius: 5px;
+  margin: 10px 0px 0px 0px;
+  color: white;
+  /* text-shadow: 10px 10px 30px yellow,10px 10px 30px orange; */
+}
+.cardbtn:hover{
+  box-shadow: 0px 0px 15px grey;
+  background-color: #245953;
+}
+
+.cardcolour{
+   background-color:#BBD6B8;
+  height: 475px;
+}
+
+
+.picture{
+  margin-top: 75px;
+}
+.wimg{
+ position: absolute;
+ border-radius: 100px;
+ height: 60px;
+ width: 60px;
+ margin: -10px 0px 0px 405px;
+ background-color: #F6F1F1;
+}
+.picclr{
+  position: absolute;
+  border-radius: 5px;
+  width: 10px;
+  height: 50px;
+  margin: -5px 0px 0px 465px;
+  background-color: #EBB02D;
+}
+.tophead{
+  /* width: 100%; */
+   margin: -20px 0px 0px 475px;
+  font-size: 30px;
+  color: #294F02;
+  opacity: 100%;
+  font-family: 'Montserrat';
+}
+.pictureimg{
+  border-radius: 10px;
+width: 100%;
+/* width: 1280px; */
+height: 250px;
+object-fit: cover;
+
+}
+.pictureimg:hover {
+filter: blur(2px);
+}
+
+
+
+
+.picturebody{
+  width: 20%;
+  float: left;
+  margin: 50px 0px 0px 47px;
+}
+.picturehead{
+  position: absolute;
+  text-align: center;
+  margin: -20px 0px 0px 65px;
+  padding: 5px 10px 5px 10px;
+  background-color: #2E820C;
+  border-radius: 10px;
+  color:white;
+}
+.aboutheading{
+  font-size: 45px;
+  margin: 50px 0px 0px 80px;
+    color:#EBB02D;
+    font-family: 'poppins';
+      text-shadow: 20px 20px 4px grey;
+}
+.aboutpara{
+  font-size: 20px;
+  width: 85%;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 25px 0px 0px 55px;
+  color: #245953;
+
+}
+
+.aboutimg{
+  width: 90%;
+  height: 415px;
+  margin: 30px 0px 0px 30px;
+
+}
+.aboutcontent{
+  float: left;
+  width: 45%;
+}
+.aboutbordar{
+  background-color: #F6F2F3 ;
+  height: 470px;
+  width: 100%;
+  margin: 50px 0px 0px 40px;
+  border-radius: 5px;
+
+}
+.aboutbordar:hover{
+
+  content: url('../img/green-farm-vietnam-green-field-terrace-wallpaper-preview.jpg')
+}
+.aboutclr{
+  position: absolute;
+  border-radius: 10px;
+  width: 5px;
+  height: 50px;
+  background-color: green;
+  opacity: 80%;
+  margin: 50px 0px 0px 70px;
+}
+.about{
+  margin-top: 440px;
+
+}
+.aboutbg{
+  position: absolute;
+  background-color: grey;
+  width: 100%;
+  /* width: 1280px; */
+  height: 600px;
+  opacity: 90%;
+  margin: -600px 0px 0px 0px;
+}
+.bgpic{
+  background-image: url('../img/project6.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+
+}
+.fermer{
+  margin-top: 60px;
+}
+.bgimg{
+  margin-top: 0px;
+}
+.cowimg{
+  margin: 58px 0px 0px 172px;
+  width: 860px;
+  opacity: 25%;
+}
+.bgclr{
+  background-color: green;
+  height: 560px;
+  width: 100%;
+  margin: -565px 0px 0px 0px;
+  opacity: 80%;
+}
+.card{
+  float: left!important;
+  width: 30%;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+.card-img-top{
+  width: 100%!important;
+  height: 260px!important;
+  margin-top: -80px!important;
+  margin-left: 0px!important;
+  object-fit: cover!important;
+
+}
+.card-img-top:hover{
+  filter: contrast(200%) brightness(150%);
+
+}
+.card-body{
+  height: 200px!important;
+}
+.card-title{
+  font-size: 30px!important;
+  margin: -15px 0px 0px 120px!important;
+  color: #198754!important;
+}
+.card-text{
+  font-size: 19px!important;
+  margin-top: 0px!important;
+  color:#EBB02D!important;
+}
+.btn{
+  padding: 5px 0px 0px 0px!important;
+  margin: 5px 0px 0px 120px!important;
+  height: 45px!important;
+  width: 120px!important;
+  background-color:#032706!important;
+  font-size: 25px!important;
+}
+.btn:hover{
+  background-color: #023E39!important;
+}
+.reviewimg{
+  width: 100px;
+  height: 85px;
+  margin: -40px 0px 0px 135px;
+  background-color: white;
+  border-radius: 100px;
+}
+.fhead{
+  text-align: center;
+  margin-top: -20px;
+  margin-left: 5px;
+  width: 40%;
+  font-size: 42px;
+  color: green;
+  opacity: 60%;
+}
+.fclr{
+  width: 5px;
+  height: 115px;
+  background-color: #EBB02D;
+  margin: 0px 0px 0px 580px;
+  border-radius: 3px;
+}
+
+/* project */
+
+.project{
+  margin-top: 50px;
+}
+
+.customar{
+  margin-top: 20px;
+
+}
+ .customarbg{
+background-image: url('../img/customerbgimg.jpg');
+width: 100%;
+height: 560px;
+opacity: 10%;
+background-size: cover;
+}
+.customarrow{
+  margin: -545px 0px 0px 0px;
+}
+.customarhead{
+  font-size: 45px;
+  color: #245953;
+  margin-top: 10px;
+  text-align: center;
+}
+.cardcustomer{
+  float: left;
+  width: 21%!important;
+  margin: 25px 0px 0px 40px;
+}
+.card1-img-top{
+width: 100%;
+height: 300px;
+object-fit: cover;
+border-radius: 10px;
+}
+.card1-img-top:hover{
+   filter: grayscale(100%) blur(2px);
+
+}
+.card2-img-top{
+  width: 100px;
+  height: 40px;
+  margin-left: 80px;
+}
+.card2-img-top:hover{
+  /* color: green; */
+}
+.card1-head{
+  text-align: center;
+  font-size: 25px;
+  color: #A47207;
+}
+.counter{
+  margin-top: 600px;
+}
+.counterborder{
+  width: 17%;
+  float: left;
+
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px grey;
+  margin: -25px 0px 0px 77px;
+}
+.counterborder:hover{
+
+}
+.counterimg{
+  width: 100px;
+  height: 100px;
+}
+.counterrow{
+  margin-left: 55px;
+  margin-top: 50px;
+}
+
+ .display-4{
+  margin-top: 5px!important;
+  margin-left: 35px!important;
+  font-size: 35px!important;
+  color: #2E820C!important;
+
+}
+
+.counterpara1{
+  color: #EBB02D;
+  font-size: 25px;
+    margin-top: 10px;
+  margin-left: -18px;
+}
+.counterpara1:hover{
+  text-decoration: underline;
+  color: grey;
+}
+.counterpara2{
+  color: #EBB02D;
+    font-size: 25px;
+    margin-top: 10px;
+  margin-left: 6px;
+}
+.counterpara2:hover{
+  text-decoration: underline;
+  color: grey;
+}
+.counterpara3{
+  color: #EBB02D;
+    font-size: 25px;
+    margin-top: 10px;
+  margin-left: -18px;
+}
+.counterpara3:hover{
+  text-decoration: underline;
+  color: grey;
+}
+.counterpara4{
+  color: #EBB02D;
+    font-size: 25px;
+    margin-top: 10px;
+  margin-left: 5px;
+}
+.counterpara4:hover{
+  text-decoration: underline;
+  color: grey;
+}
+.link{
+  position: absolute;
+  margin-top: 300px;
+  width: 100%;
+}
+.linkrow{
+  background-color: #245953;
+  width: 100%;
+  height: 345px;
+}
+.linkcolomn{
+ float: left;
+ width: 20%;
+ margin-left: 125px;
+ margin-top: 40px;
+}
+.linkhead1{
+ font-size: 35px;
+ color: white;
+ margin-left: 30px;
+}
+.linkhead2{
+ font-size: 35px;
+ color: white;
+ margin-left: 70px;
+}
+.linkhead3{
+ font-size: 35px;
+ color: white;
+ margin-left: 70px;
+}
+.linkli{
+ list-style: none;
+}
+.alink{
+ font-size: 18px;
+   color: #C7E8CA;
+   text-decoration: none;
+
+   line-height: 40px;
+}
+.alink:hover{
+ color: yellow;
+}
+.linkpara{
+ color: white;
+ line-height: 35px;
+ font-size: 17px;
+}
+.linkimg{
+ width: 35px;
+ height: 35px;
+ margin: 0px 0px 0px 20px;
+}
+.address{
+ position: absolute;
+ width: 35px;
+ height: 35px;
+ margin: 6px 0px 0px 0px;
+}
+.contact{
+ position: absolute;
+ width: 35px;
+ height: 35px;
+ margin: 6px 0px 0px 36px;
+}
+.upcoming{
+ position: absolute;
+ width: 35px;
+ height: 35px;
+ margin: 6px 0px 0px 35px;
+}
+
+.footer{
+  position: absolute;
+  margin-top: 645px;
+  width: 100%;
+  height: 60px;
+  background-color: #F7DB6A;
+}
+.footerpara{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin-top: 0px;
+}
+.alink{
+  text-decoration: none;
+}
+.lastimg{
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  margin: 0px 0px 0px 410px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 575px){
+  .navbar-brand{
+    font-size: 35px!important;
+    margin: 0px 0px 0px -370px!important;
+    color:white!important;
+  }
+  .nav-link{
+    margin-left: 0px!important;
+  }
+  .bnrhd{
+    position: absolute;
+    font-size: 70px;
+    margin: -365px 0px 0px 0px;
+    font-family: 'Kalam';
+    width: 20%;
+  }
+  .bnrpara{
+    position: absolute;
+    margin: -120px 0px 0px 0px;
+    width: 80%;
+    color: white;
+    font-size: 25px;
+  }
+  .cardclr{
+    position: absolute;
+    background-color: grey;
+    opacity: 50%;
+    width: 100px;
+    height: 10px;
+    border-radius: 8px;
+    margin: -60px 0px 0px 260px;
+  }
+  .cardimg{
+     width: 455px;
+    height: 336px;
+
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 15px;
+    margin: 35px 0px 0px 70px;
+
+
+  }
+  .cardcolomn{
+    margin: 80px 0px 0px 150px;
+  }
+  .cardcolour{
+    width: 100%;
+     background-color:#BBD6B8;
+    height: 865px;
+  }
+  .picture{
+    margin-top: 75px;
+  }
+  .wimg{
+   position: absolute;
+   border-radius: 100px;
+   height: 60px;
+   width: 60px;
+   margin: -10px 0px 0px 100px;
+   background-color: #F6F1F1;
+  }
+  .picclr{
+    position: absolute;
+    border-radius: 5px;
+    width: 10px;
+    height: 50px;
+    margin: -5px 0px 0px 160px;
+    background-color: #EBB02D;
+  }
+  .tophead{
+    width: 60%;
+     margin: -20px 0px 0px 170px;
+    font-size: 30px;
+    color: #294F02;
+    opacity: 100%;
+    font-family: 'Montserrat';
+  }
+  .picturebody{
+    width: 40%;
+    float: left;
+    margin: 50px 0px 0px 47px;
+  }
+  .about{
+    margin-top: 650px;
+
+  }
+  .aboutcontent{
+    float: left;
+    width: 100%;
+  }
+  .aboutbordar{
+    background-color: #F6F2F3 ;
+    height: 470px;
+    width: 95%;
+    margin: 50px 0px 0px 15px;
+    border-radius: 5px;
+
+  }
+  .bgpic{
+    background-image: url('../img/project6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1040px;
+
+  }
+
+  .aboutbg{
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    height: 1040px;
+    opacity: 90%;
+    margin: -1040px 0px 0px 0px;
+  }
+  .fermer{
+    margin-top: 75px;
+  }
+  .fhead{
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 5px;
+    width: 40%;
+    font-size: 42px;
+    color: green;
+    opacity: 60%;
+  }
+  .fclr{
+    width: 5px;
+    height: 115px;
+    background-color: #EBB02D;
+    margin: 0px 0px 0px 270px;
+    border-radius: 3px;
+  }
+  .card{
+    float: left!important;
+    width: 70%;
+    margin-left: 90px;
+    margin-top: 100px;
+  }
+  .card-img-top{
+    width: 100%!important;
+    height: 260px!important;
+    margin-top: -80px!important;
+    margin-left: 0px!important;
+    object-fit: cover!important;
+
+  }
+  .cowimg{
+    margin: 58px 0px 0px 172px;
+    width: 78%;
+    opacity: 25%;
+  }
+  .bgclr{
+    background-color: green;
+    height: 1620px;
+    width: 100%;
+    margin: -368px 0px 0px 0px;
+    opacity: 80%;
+  }
+  .cardcustomer{
+    float: left;
+    width: 40%!important;
+    margin: 25px 0px 0px 40px;
+  }
+  .counterborder{
+    width: 35%;
+    float: left;
+
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+    margin: 15px 0px 0px 60px;
+  }
+  .link{
+    position: absolute;
+    margin-top: 950px;
+    width: 100%;
+  }
+  .linkrow{
+    background-color: #245953;
+    width: 100%;
+    height: 850px;
+  }
+  .linkcolomn{
+   float: left;
+   width: 40%;
+   margin-left: 200px;
+   margin-top: 40px;
+  }
+  .footer{
+    position: absolute;
+    margin-top: 1800px;
+    width: 100%;
+    height: 60px;
+    background-color: #F7DB6A;
+  }
+  .lastimg{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    margin: 0px 0px 0px 90px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+  .navbar-brand{
+    font-size: 35px!important;
+    margin: 0px 0px 0px -640px!important;
+    color:white!important;
+  }
+  .bnrhd{
+    position: absolute;
+    font-size: 70px;
+    margin: -365px 0px 0px 0px;
+    font-family: 'Kalam';
+    width: 20%;
+  }
+  .bnrpara{
+    position: absolute;
+    margin: -120px 0px 0px 0px;
+    width: 80%;
+    color: white;
+    font-size: 25px;
+  }
+  .cardclr{
+    position: absolute;
+    background-color: grey;
+    opacity: 50%;
+    width: 100px;
+    height: 10px;
+    border-radius: 8px;
+    margin: -60px 0px 0px 395px;
+  }
+  .cardimg{
+     width: 455px;
+    height: 336px;
+
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 15px;
+    margin: 35px 0px 0px 220px;
+
+
+  }
+  .cardcolomn{
+    margin: 80px 0px 0px 220px;
+  }
+  .cardcolour{
+     background-color:#BBD6B8;
+    height: 865px;
+  }
+  .picture{
+    margin-top: 75px;
+  }
+  .wimg{
+   position: absolute;
+   border-radius: 100px;
+   height: 60px;
+   width: 60px;
+   margin: -10px 0px 0px 275px;
+   background-color: #F6F1F1;
+  }
+  .picclr{
+    position: absolute;
+    border-radius: 5px;
+    width: 10px;
+    height: 50px;
+    margin: -5px 0px 0px 335px;
+    background-color: #EBB02D;
+  }
+  .tophead{
+    width: 40%;
+     margin: -20px 0px 0px 345px;
+    font-size: 30px;
+    color: #294F02;
+    opacity: 100%;
+    font-family: 'Montserrat';
+  }
+  .picturebody{
+    width: 40%;
+    float: left;
+    margin: 50px 0px 0px 60px;
+  }
+  .about{
+    margin-top: 650px;
+
+  }
+  .aboutcontent{
+    float: left;
+    width: 100%;
+  }
+  .aboutbordar{
+    background-color: #F6F2F3 ;
+    height: 470px;
+    width: 95%;
+    margin: 50px 0px 0px 15px;
+    border-radius: 5px;
+
+  }
+  .bgpic{
+    background-image: url('../img/project6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1040px;
+
+  }
+
+  .aboutbg{
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    height: 1040px;
+    opacity: 90%;
+    margin: -1040px 0px 0px 0px;
+  }
+  .fermer{
+    margin-top: 75px;
+  }
+  .fhead{
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 5px;
+    width: 40%;
+    font-size: 42px;
+    color: green;
+    opacity: 60%;
+  }
+  .fclr{
+    width: 5px;
+    height: 115px;
+    background-color: #EBB02D;
+    margin: 0px 0px 0px 400px;
+    border-radius: 3px;
+  }
+  .card{
+    float: left!important;
+    width: 70%;
+    margin-left: 90px;
+    margin-top: 100px;
+  }
+  .card-img-top{
+    width: 100%!important;
+    height: 260px!important;
+    margin-top: -80px!important;
+    margin-left: 0px!important;
+    object-fit: cover!important;
+
+  }
+  .cowimg{
+    margin: 58px 0px 0px 172px;
+    width: 78%;
+    opacity: 25%;
+  }
+  .bgclr{
+    background-color: green;
+    height: 1620px;
+    width: 100%;
+    margin: -368px 0px 0px 0px;
+    opacity: 80%;
+  }
+  .cardcustomer{
+    float: left;
+    width: 40%!important;
+    margin: 25px 0px 0px 85px;
+  }
+  .counterborder{
+    width: 35%;
+    float: left;
+
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+    margin: 15px 0px 0px 60px;
+  }
+  .link{
+    position: absolute;
+    margin-top: 950px;
+    width: 100%;
+  }
+  .linkrow{
+    background-color: #245953;
+    width: 100%;
+    height: 350px;
+  }
+  .linkcolomn{
+   float: left;
+   width: 30%;
+   margin-left: 20px;
+   margin-top: 40px;
+  }
+  .footer{
+    position: absolute;
+    margin-top: 1300px;
+    width: 100%;
+    height: 60px;
+    background-color: #F7DB6A;
+  }
+  .lastimg{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    margin: 0px 0px 0px 220px;
+  }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+  .nav-item{
+    margin: 0px 0px 9px 0px;
+    font-size: 14px!important;
+    color: white!important;
+  }
+  .cardclr{
+    position: absolute;
+    background-color: grey;
+    opacity: 50%;
+    width: 100px;
+    height: 10px;
+    border-radius: 8px;
+    margin: -60px 0px 0px 495px;
+  }
+  .cardimg{
+     width: 455px;
+    height: 336px;
+    margin: 70px 0px 0px 175px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 15px;
+    margin: 35px 0px 0px 25px;
+
+
+  }
+  .cardcolomn{
+    margin: -345px 0px 0px 630px;
+  }
+  .cardcustomer{
+    float: left;
+    width: 21%!important;
+    margin: 25px 0px 0px 30px;
+  }
+  .lastimg{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    margin: 0px 0px 0px 320px;
+  }
+}
+}

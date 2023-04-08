@@ -1,0 +1,513 @@
+.navbar{
+  background-color: #245953!important;
+  position: fixed!important;
+  width: 100%!important;
+  height: 80px!important;
+  z-index: 4!important;
+}
+.nav-item{
+  margin-left: 20px;
+}
+.navbar-collapse{
+  margin-left: 520px!important;
+}
+.nav-img{
+  width: 40px;
+  height: 40px;
+}
+.nav-link{
+color: white!important;
+font-size: 17px!important;
+text-transform: uppercase;
+}
+.nav-link:hover{
+  text-decoration: underline;
+  color: #ffc107!important;
+}
+.nav-head{
+  color: white!important;
+}
+.bannerimg{
+  width: 100%;
+  height: 600px;
+  opacity: 85%;
+}
+.bgclr{
+  width: 100%;
+  height: 600px;
+  opacity: 70%;
+  background-color: #DFFFD8;
+  margin: -600px 0px 0px 0px;
+  opacity: 50%;
+}
+ .bannerhead{
+   position: absolute;
+  margin: -380px 0px 0px 360px;
+  color: #245953;
+  font-size: 90px;
+
+}
+.bannerimg1{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: -395px 0px 0px 245px;
+}
+.news{
+  margin-top: 75px;
+}
+.newshead{
+  text-align: center;
+  font-size: 50px;
+  color: #EBB02D;
+}
+.clr{
+  position: absolute;
+  width: 10px;
+  height: 70px;
+  background-color: #245953;
+  margin: 0px 0px 0px 403px ;
+  border-radius: 10px;
+}
+.card{
+  float: left!important;
+  width: 35%!important;
+  margin: 50px 0px 15px 125px!important;
+    box-shadow: 0px 0px 10px grey!important;
+}
+.card:hover{
+
+}
+.card-img-top{
+  width: 100%!important;
+  height: 300px!important;
+  -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    -webkit-mask-size: 800%;
+    mask-size: 800%;
+    -webkit-mask-position: 0;
+    mask-position: 0;
+}
+.card-img-top:hover{
+  transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    -webkit-mask-position: 120%;
+    mask-position: 120%;
+    opacity: 1;
+}
+.card-title{
+  text-align: center!important;
+  font-size: 27px!important;
+  color: #245953!important;
+}
+.card-text{
+  font-size: 17px!important;
+  color: grey!important;
+}
+.btn{
+  width: 135px!important;
+  height: 50px!important;
+  background-color: #198754!important;
+  font-size: 17px!important;
+  margin-left: 130px!important;
+}
+.btn:hover{
+  box-shadow: 0px 0px 15px grey!important;
+}
+.video{
+  margin-top: 50px;
+
+}
+.videorow{
+  float: left;
+  width: 40%;
+  margin: 50px 0px 0px 90px;
+}
+.videoclr{
+   position: absolute;
+  width: 217px;
+  height: 48px;
+  background-color: yellow;
+  margin: 10px 0px 0px 0px;
+  border-radius: 10px;
+}
+.videohead{
+  color: white;
+  text-align: center;
+}
+.videolink{
+  position: absolute;
+  margin: 317px 0px 0px -113px;
+  padding: 10px 10px 10px 10px;
+  background-color: #245953;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+
+.link{
+  margin-top: 1600px;
+}
+.linkrow{
+  background-color: #245953;
+  width: 100%;
+  height: 345px;
+}
+.linkcolomn{
+ float: left;
+ width: 20%;
+ margin-left: 125px;
+ margin-top: 40px;
+}
+.linkhead1{
+ font-size: 35px;
+ color: white;
+ margin-left: 30px;
+}
+.linkhead2{
+ font-size: 35px;
+ color: white;
+ margin-left: 70px;
+}
+.linkhead3{
+ font-size: 35px;
+ color: white;
+ margin-left: 70px;
+}
+.linkli{
+ list-style: none;
+}
+.alink{
+ font-size: 18px;
+   color: #C7E8CA;
+   text-decoration: none;
+   /* margin-bottom: 0px; */
+   line-height: 40px;
+}
+.alink:hover{
+ color: yellow;
+}
+.linkpara{
+ color: white;
+ line-height: 35px;
+ font-size: 17px;
+}
+.linkimg{
+ width: 35px;
+ height: 35px;
+ margin: 0px 0px 0px 20px;
+}
+.address{
+ position: absolute;
+ width: 35px;
+ height: 35px;
+ margin: 6px 0px 0px 0px;
+}
+.contact{
+ position: absolute;
+ width: 35px;
+ height: 35px;
+ margin: 6px 0px 0px 35px;
+}
+.upcoming{
+ position: absolute;
+ width: 35px;
+ height: 35px;
+ margin: 6px 0px 0px 36px;
+}
+.footer{
+ width: 100%;
+ height: 60px;
+ background-color: #F7DB6A;
+}
+.footerpara{
+ text-align: center;
+ font-size: 25px;
+ color: white;
+ margin-top: 0px;
+}
+.alink{
+  text-decoration: none;
+}
+.lastimg{
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  margin: 0px 0px 0px 410px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 575px) {
+  .navbar-brand{
+    font-size: 35px!important;
+    margin: 0px 0px 0px -390px!important;
+    color: white!important;
+  }
+  .bannerimg1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin: -515px 0px 0px 255px;
+  }
+  .bannerhead{
+    position: absolute;
+   margin: -380px 0px 0px 100px;
+   color: #245953;
+   font-size: 90px;
+
+ }
+ .card{
+   float: left!important;
+   width: 70%!important;
+   margin: 50px 0px 15px 100px!important;
+     box-shadow: 0px 0px 10px grey!important;
+ }
+ .clr{
+   position: absolute;
+   width: 10px;
+   height: 70px;
+   background-color: #245953;
+   margin: 0px 0px 0px 90px ;
+   border-radius: 10px;
+ }
+ .link{
+   margin-top: 3100px;
+ }
+ .linkrow{
+   background-color: #245953;
+   width: 100%;
+   height: 850px;
+ }
+ .videorow{
+   float: left;
+   width: 40%;
+   margin: 50px 0px 0px 65px;
+ }
+ .videoclr{
+    position: absolute;
+   width: 217px;
+   height: 48px;
+   background-color: yellow;
+   margin: 0px 0px 0px 0px;
+   border-radius: 10px;
+ }
+ .videolink{
+   position: absolute;
+   margin: 0px 0px 0px 385px;
+   padding: 10px 10px 10px 10px;
+   background-color: #245953;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+
+ }
+ .linkcolomn{
+  float: left;
+  width: 40%;
+  margin-left: 235px;
+  margin-top: 40px;
+ }
+ .lastimg{
+   position: absolute;
+   width: 55px;
+   height: 55px;
+   margin: 0px 0px 0px 100px;
+ }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .navbar-brand{
+    font-size: 35px!important;
+    margin: 0px 0px 0px -640px!important;
+    color: white!important;
+  }
+  .bannerimg1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin: -515px 0px 0px 380px;
+  }
+  .bannerhead{
+    position: absolute;
+   margin: -380px 0px 0px 100px;
+   color: #245953;
+   font-size: 90px;
+
+ }
+ .clr{
+   position: absolute;
+   width: 10px;
+   height: 70px;
+   background-color: #245953;
+   margin: 0px 0px 0px 215px ;
+   border-radius: 10px;
+ }
+ .card{
+   float: left!important;
+   width: 40%!important;
+   margin: 50px 0px 15px 60px!important;
+     box-shadow: 0px 0px 10px grey!important;
+ }
+ .card-title{
+   text-align: center!important;
+   font-size: 20px!important;
+   color: #245953!important;
+ }
+ .btn{
+   width: 135px!important;
+   height: 50px!important;
+   background-color: #198754!important;
+   font-size: 17px!important;
+   margin-left: 95px!important;
+ }
+ .videorow{
+   float: left;
+   width: 47%;
+   margin: 50px 0px 0px 22px;
+ }
+ .videoclr{
+    position: absolute;
+   width: 217px;
+   height: 48px;
+   background-color: yellow;
+   margin: 0px 0px 0px 0px;
+   border-radius: 10px;
+ }
+ .videolink{
+   position: absolute;
+   margin: 305px 0px 0px -115px;
+   padding: 10px 10px 10px 10px;
+   background-color: #245953;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+
+ }
+ .map{
+   width: 400px;
+   height: 300px;
+ }
+
+ .link{
+   margin-top: 1600px;
+ }
+ .linkrow{
+   background-color: #245953;
+   width: 100%;
+   height: 350px;
+ }
+
+ .linkcolomn{
+  float: left;
+  width: 30%;
+  margin-left: 15px;
+  margin-top: 40px;
+ }
+ .lastimg{
+   position: absolute;
+   width: 55px;
+   height: 55px;
+   margin: 0px 0px 0px 225px;
+ }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .navbar-brand{
+    font-size: 35px!important;
+    margin: 0px 0px 0px 0px!important;
+    color: white!important;
+  }
+  .nav-item{
+    color: white!important;
+    margin: 0px 0px 9px 0px;
+    font-size: 14px!important;
+  }
+  .bannerimg1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin: -395px 0px 0px 170px;
+  }
+  .bannerhead{
+    position: absolute;
+   margin: -380px 0px 0px 280px;
+   color: #245953;
+   font-size: 90px;
+
+ }
+ .clr{
+   position: absolute;
+   width: 10px;
+   height: 70px;
+   background-color: #245953;
+   margin: 0px 0px 0px 315px ;
+   border-radius: 10px;
+ }
+ .card{
+   float: left!important;
+   width: 45%!important;
+   margin: 50px 0px 15px 35px!important;
+     box-shadow: 0px 0px 10px grey!important;
+ }
+ .card-title{
+   text-align: center!important;
+   font-size: 20px!important;
+   color: #245953!important;
+ }
+ .btn{
+   width: 135px!important;
+   height: 50px!important;
+   background-color: #198754!important;
+   font-size: 17px!important;
+   margin-left: 150px!important;
+ }
+ .videorow{
+   float: left;
+   width: 47%;
+   margin: 50px 0px 0px 22px;
+ }
+ .videoclr{
+    position: absolute;
+   width: 217px;
+   height: 48px;
+   background-color: yellow;
+   margin: 0px 0px 0px 0px;
+   border-radius: 10px;
+ }
+ .videolink{
+   position: absolute;
+   margin: 305px 0px 0px -115px;
+   padding: 10px 10px 10px 10px;
+   background-color: #245953;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+
+ }
+ .map{
+   width: 500px;
+   height: 300px;
+ }
+
+ .link{
+   margin-top: 1600px;
+ }
+ .linkrow{
+   background-color: #245953;
+   width: 100%;
+   height: 350px;
+ }
+
+ .linkcolomn{
+  float: left;
+  width: 30%;
+  margin-left: 15px;
+  margin-top: 40px;
+ }
+ .lastimg{
+   position: absolute;
+   width: 55px;
+   height: 55px;
+   margin: 0px 0px 0px 320px;
+ }
+}
